@@ -1596,4 +1596,108 @@ mixamorig:RightToe_End
 [2014.09.16-19.20.13:968][546]LogContentBrowser:Verbose: The majority of assets in the view are of type: AnimSequence
 [2014.09.16-19.20.20:960][817]LogSkeletalMesh: InitArticulated: Bodies already created (/Engine/Transient.DebugSkelMeshComponent_6) - call TermArticulated first.
 [2014.09.16-19.20.21:056][817]LogContentBrowser:Verbose: The majority of assets in the view are of type: AnimSequence
-[2014.09.16-19.20.28:043][133]LogContentBrowser:Verbose: The content
+[2014.09.16-19.20.28:043][133]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Animations'
+[2014.09.16-19.20.28:590][167]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Animations/Mycharacter'
+[2014.09.16-19.20.57:725][847]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Architecture'
+[2014.09.16-19.20.59:267][941]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Animations'
+[2014.09.16-19.21.00:096][991]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Animations/Mycharacter'
+[2014.09.16-19.21.10:530][574]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Maps'
+[2014.09.16-19.21.11:033][607]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Character/Mycharacter'
+[2014.09.16-19.21.12:585][687]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Animations/Mycharacter'
+[2014.09.16-19.21.20:299][ 66]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Character'
+[2014.09.16-19.21.22:337][171]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Character/Mycharacter'
+[2014.09.16-19.21.23:768][243]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Character'
+[2014.09.16-19.21.28:555][508]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Character/Mycharacter'
+[2014.09.16-19.21.29:043][538]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Blueprints'
+[2014.09.16-19.21.30:644][617]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Animations/Mycharacter'
+[2014.09.16-19.21.40:856][248]LogSkeletalMesh: InitArticulated: Bodies already created (/Engine/Transient.DebugSkelMeshComponent_9) - call TermArticulated first.
+[2014.09.16-19.21.40:954][248]LogContentBrowser:Verbose: The majority of assets in the view are of type: AnimSequence
+[2014.09.16-19.21.44:456][369]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Audio'
+[2014.09.16-19.21.44:938][387]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Architecture'
+[2014.09.16-19.21.45:391][403]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Character'
+[2014.09.16-19.21.45:863][428]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Character/Mycharacter'
+[2014.09.16-19.21.46:687][469]LogContentBrowser:Verbose: The content browser source was changed by the sources view to 'None'
+[2014.09.16-19.22.14:023][741]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Character'
+[2014.09.16-19.29.24:032][ 80]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_0) Not registered. Aborting.
+[2014.09.16-19.29.24:033][ 80]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_0) Not registered. Aborting.
+[2014.09.16-19.29.24:097][ 80]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000002D12CCC0
+[2014.09.16-19.29.24:098][ 80]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000002D12E480
+[2014.09.16-19.29.24:098][ 80]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000D09B600
+[2014.09.16-19.29.24:098][ 80]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000EE098A0
+[2014.09.16-19.29.24:099][ 80]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000EE09300
+[2014.09.16-19.29.24:099][ 80]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000EE0AFC0
+[2014.09.16-19.29.24:099][ 80]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000F74F240
+[2014.09.16-19.29.24:100][ 80]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000025CEA520
+[2014.09.16-19.29.24:101][ 80]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000025AB8360
+[2014.09.16-19.29.24:101][ 80]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000002D35E0C0
+[2014.09.16-19.29.24:102][ 80]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000002D35C400
+[2014.09.16-19.29.24:102][ 80]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000002C5CA840
+[2014.09.16-19.29.24:764][ 80]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Example_Map" FILE="K:/UnrealProject/EpicGames/FirstGame/Content/Maps/Example_Map.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2014.09.16-19.29.25:344][ 80]LogSavePackage: Save=499.550690ms
+[2014.09.16-19.29.25:345][ 80]LogSavePackage: Moving 'K:/UnrealProject/EpicGames/FirstGame/Saved/Example_Map26ADB3BC476285D2F6CB31B81AFC22D4.tmp' to 'K:/UnrealProject/EpicGames/FirstGame/Content/Maps/Example_Map.umap'
+[2014.09.16-19.29.25:402][ 80]LogFileHelpers: Saving map 'Example_Map' took 0.823
+[2014.09.16-19.29.25:441][ 80]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Character/Mycharacter/t-pose_5" FILE="K:/UnrealProject/EpicGames/FirstGame/Content/Character/Mycharacter/t-pose_5.uasset" SILENT=true
+[2014.09.16-19.29.26:649][ 80]LogSavePackage: Save=1199.339600ms
+[2014.09.16-19.29.26:650][ 80]LogSavePackage: Moving 'K:/UnrealProject/EpicGames/FirstGame/Saved/t-pose_54886F6264471A2C6AC9E29A1A3EC6EE4.tmp' to 'K:/UnrealProject/EpicGames/FirstGame/Content/Character/Mycharacter/t-pose_5.uasset'
+[2014.09.16-19.29.27:384][ 80]LogSavePackage: Save=673.472290ms
+[2014.09.16-19.29.27:384][ 80]LogSavePackage: Moving 'K:/UnrealProject/EpicGames/FirstGame/Saved/ely_vanguardsoldier_kerwinatienza_ME22181B2476528AFB07455A7BEF7D4E1.tmp' to 'K:/UnrealProject/EpicGames/FirstGame/Content/Character/Mycharacter/ely_vanguardsoldier_kerwinatienza_M.uasset'
+[2014.09.16-19.29.28:270][ 80]LogSavePackage: Save=825.454834ms
+[2014.09.16-19.29.28:271][ 80]LogSavePackage: Moving 'K:/UnrealProject/EpicGames/FirstGame/Saved/ely-vanguardsoldier-kerwinatienza_diffuse719D94C644C3EDB2E3CB1785D9B19563.tmp' to 'K:/UnrealProject/EpicGames/FirstGame/Content/Character/Mycharacter/ely-vanguardsoldier-kerwinatienza_diffuse.uasset'
+[2014.09.16-19.29.28:433][ 80]LogSavePackage: Save=109.580162ms
+[2014.09.16-19.29.28:433][ 80]LogSavePackage: Moving 'K:/UnrealProject/EpicGames/FirstGame/Saved/ely-vanguardsoldier-kerwinatienza_glow2362908645F3AE9C175FEEA49FE60BE2.tmp' to 'K:/UnrealProject/EpicGames/FirstGame/Content/Character/Mycharacter/ely-vanguardsoldier-kerwinatienza_glow.uasset'
+[2014.09.16-19.29.28:962][ 80]LogSavePackage: Save=473.641449ms
+[2014.09.16-19.29.28:963][ 80]LogSavePackage: Moving 'K:/UnrealProject/EpicGames/FirstGame/Saved/ely-vanguardsoldier-kerwinatienza_specular77987403464DA9136080A69407EBAA47.tmp' to 'K:/UnrealProject/EpicGames/FirstGame/Content/Character/Mycharacter/ely-vanguardsoldier-kerwinatienza_specular.uasset'
+[2014.09.16-19.29.31:112][ 80]LogSavePackage: Save=2096.212402ms
+[2014.09.16-19.29.31:113][ 80]LogSavePackage: Moving 'K:/UnrealProject/EpicGames/FirstGame/Saved/ely-vanguardsoldier-kerwinatienza_normalF24D6E8749FE32FCF43FF79EE4F6A279.tmp' to 'K:/UnrealProject/EpicGames/FirstGame/Content/Character/Mycharacter/ely-vanguardsoldier-kerwinatienza_normal.uasset'
+[2014.09.16-19.29.31:129][ 80]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Character/Mycharacter/t-pose_5_PhysicsAsset" FILE="K:/UnrealProject/EpicGames/FirstGame/Content/Character/Mycharacter/t-pose_5_PhysicsAsset.uasset" SILENT=true
+[2014.09.16-19.29.31:161][ 80]LogSavePackage: Save=29.053432ms
+[2014.09.16-19.29.31:161][ 80]LogSavePackage: Moving 'K:/UnrealProject/EpicGames/FirstGame/Saved/t-pose_5_PhysicsAssetA014669F4C94CB4FE68490AE52274CDD.tmp' to 'K:/UnrealProject/EpicGames/FirstGame/Content/Character/Mycharacter/t-pose_5_PhysicsAsset.uasset'
+[2014.09.16-19.29.31:177][ 80]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Character/Mycharacter/t-pose_5_Skeleton" FILE="K:/UnrealProject/EpicGames/FirstGame/Content/Character/Mycharacter/t-pose_5_Skeleton.uasset" SILENT=true
+[2014.09.16-19.29.31:192][ 80]LogSavePackage: Save=11.524262ms
+[2014.09.16-19.29.31:192][ 80]LogSavePackage: Moving 'K:/UnrealProject/EpicGames/FirstGame/Saved/t-pose_5_Skeleton455A27B741BE00975FB9AB9AC041EC54.tmp' to 'K:/UnrealProject/EpicGames/FirstGame/Content/Character/Mycharacter/t-pose_5_Skeleton.uasset'
+[2014.09.16-19.29.31:245][ 80]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Animations/Mycharacter/strafe_1" FILE="K:/UnrealProject/EpicGames/FirstGame/Content/Animations/Mycharacter/strafe_1.uasset" SILENT=true
+[2014.09.16-19.29.32:534][ 80]LogSavePackage: Save=1282.321411ms
+[2014.09.16-19.29.32:534][ 80]LogSavePackage: Moving 'K:/UnrealProject/EpicGames/FirstGame/Saved/strafe_18EDD17174A1D435323370EB69EE6586E.tmp' to 'K:/UnrealProject/EpicGames/FirstGame/Content/Animations/Mycharacter/strafe_1.uasset'
+[2014.09.16-19.29.32:587][ 80]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Animations/Mycharacter/strafe_2" FILE="K:/UnrealProject/EpicGames/FirstGame/Content/Animations/Mycharacter/strafe_2.uasset" SILENT=true
+[2014.09.16-19.29.33:892][ 80]LogSavePackage: Save=1279.393066ms
+[2014.09.16-19.29.33:892][ 80]LogSavePackage: Moving 'K:/UnrealProject/EpicGames/FirstGame/Saved/strafe_2CBC48963472B81C0D4B4A3BDBE908145.tmp' to 'K:/UnrealProject/EpicGames/FirstGame/Content/Animations/Mycharacter/strafe_2.uasset'
+[2014.09.16-19.29.33:947][ 80]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Animations/Mycharacter/test1" FILE="K:/UnrealProject/EpicGames/FirstGame/Content/Animations/Mycharacter/test1.uasset" SILENT=true
+[2014.09.16-19.29.35:220][ 80]LogSavePackage: Save=1265.544556ms
+[2014.09.16-19.29.35:220][ 80]LogSavePackage: Moving 'K:/UnrealProject/EpicGames/FirstGame/Saved/test17C96FA20461FB20649D8A18055D5D581.tmp' to 'K:/UnrealProject/EpicGames/FirstGame/Content/Animations/Mycharacter/test1.uasset'
+[2014.09.16-19.29.35:280][ 80]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Animations/Mycharacter/test2" FILE="K:/UnrealProject/EpicGames/FirstGame/Content/Animations/Mycharacter/test2.uasset" SILENT=true
+[2014.09.16-19.29.36:587][ 80]LogSavePackage: Save=1300.912231ms
+[2014.09.16-19.29.36:587][ 80]LogSavePackage: Moving 'K:/UnrealProject/EpicGames/FirstGame/Saved/test2BF833E3B446ACB514A6B858BFC286E6F.tmp' to 'K:/UnrealProject/EpicGames/FirstGame/Content/Animations/Mycharacter/test2.uasset'
+[2014.09.16-19.29.36:642][ 80]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Animations/Mycharacter/test3" FILE="K:/UnrealProject/EpicGames/FirstGame/Content/Animations/Mycharacter/test3.uasset" SILENT=true
+[2014.09.16-19.29.37:904][ 80]LogSavePackage: Save=1254.127319ms
+[2014.09.16-19.29.37:904][ 80]LogSavePackage: Moving 'K:/UnrealProject/EpicGames/FirstGame/Saved/test3B0ED882D46FCD05DF64D5EA903084FDF.tmp' to 'K:/UnrealProject/EpicGames/FirstGame/Content/Animations/Mycharacter/test3.uasset'
+[2014.09.16-19.29.37:966][ 80]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Animations/Mycharacter/test4" FILE="K:/UnrealProject/EpicGames/FirstGame/Content/Animations/Mycharacter/test4.uasset" SILENT=true
+[2014.09.16-19.29.39:261][ 80]LogSavePackage: Save=1261.516113ms
+[2014.09.16-19.29.39:262][ 80]LogSavePackage: Moving 'K:/UnrealProject/EpicGames/FirstGame/Saved/test4158879934C42DF00F97AF9B943799BCC.tmp' to 'K:/UnrealProject/EpicGames/FirstGame/Content/Animations/Mycharacter/test4.uasset'
+[2014.09.16-19.29.39:316][ 80]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Animations/Mycharacter/test5" FILE="K:/UnrealProject/EpicGames/FirstGame/Content/Animations/Mycharacter/test5.uasset" SILENT=true
+[2014.09.16-19.29.40:565][ 80]LogSavePackage: Save=1241.751587ms
+[2014.09.16-19.29.40:565][ 80]LogSavePackage: Moving 'K:/UnrealProject/EpicGames/FirstGame/Saved/test5343CD9A84E6B61D67CC2FAAC0EBF0DE7.tmp' to 'K:/UnrealProject/EpicGames/FirstGame/Content/Animations/Mycharacter/test5.uasset'
+[2014.09.16-19.29.40:611][ 80]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Animations/Mycharacter/test6" FILE="K:/UnrealProject/EpicGames/FirstGame/Content/Animations/Mycharacter/test6.uasset" SILENT=true
+[2014.09.16-19.29.41:857][ 80]LogSavePackage: Save=1240.238037ms
+[2014.09.16-19.29.41:857][ 80]LogSavePackage: Moving 'K:/UnrealProject/EpicGames/FirstGame/Saved/test6B033FC5C47139A6DDC563BABD9C0D2FD.tmp' to 'K:/UnrealProject/EpicGames/FirstGame/Content/Animations/Mycharacter/test6.uasset'
+[2014.09.16-19.29.41:915][ 80]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Animations/Mycharacter/test7" FILE="K:/UnrealProject/EpicGames/FirstGame/Content/Animations/Mycharacter/test7.uasset" SILENT=true
+[2014.09.16-19.29.43:198][ 80]LogSavePackage: Save=1275.670776ms
+[2014.09.16-19.29.43:198][ 80]LogSavePackage: Moving 'K:/UnrealProject/EpicGames/FirstGame/Saved/test7EA3B810547E4BC53D569DBAB378969D8.tmp' to 'K:/UnrealProject/EpicGames/FirstGame/Content/Animations/Mycharacter/test7.uasset'
+[2014.09.16-19.29.43:251][ 80]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Animations/Mycharacter/test8" FILE="K:/UnrealProject/EpicGames/FirstGame/Content/Animations/Mycharacter/test8.uasset" SILENT=true
+[2014.09.16-19.29.44:554][ 80]LogSavePackage: Save=1294.589844ms
+[2014.09.16-19.29.44:554][ 80]LogSavePackage: Moving 'K:/UnrealProject/EpicGames/FirstGame/Saved/test83C0C3F3C4A9BC434E1685B9DED4B79C6.tmp' to 'K:/UnrealProject/EpicGames/FirstGame/Content/Animations/Mycharacter/test8.uasset'
+[2014.09.16-19.29.44:611][ 80]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Animations/Mycharacter/test9" FILE="K:/UnrealProject/EpicGames/FirstGame/Content/Animations/Mycharacter/test9.uasset" SILENT=true
+[2014.09.16-19.29.45:822][ 80]LogSavePackage: Save=1204.075195ms
+[2014.09.16-19.29.45:822][ 80]LogSavePackage: Moving 'K:/UnrealProject/EpicGames/FirstGame/Saved/test99D25B79A496789D4E090A6AB20130D37.tmp' to 'K:/UnrealProject/EpicGames/FirstGame/Content/Animations/Mycharacter/test9.uasset'
+[2014.09.16-19.29.45:884][ 80]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Animations/Mycharacter/falling_idle_2" FILE="K:/UnrealProject/EpicGames/FirstGame/Content/Animations/Mycharacter/falling_idle_2.uasset" SILENT=true
+[2014.09.16-19.29.47:232][ 80]LogSavePackage: Save=1314.730469ms
+[2014.09.16-19.29.47:232][ 80]LogSavePackage: Moving 'K:/UnrealProject/EpicGames/FirstGame/Saved/falling_idle_261D9C82C4F432F3CB40C7DA695CE7077.tmp' to 'K:/UnrealProject/EpicGames/FirstGame/Content/Animations/Mycharacter/falling_idle_2.uasset'
+[2014.09.16-19.29.47:297][ 80]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Animations/Mycharacter/jumping_down_1" FILE="K:/UnrealProject/EpicGames/FirstGame/Content/Animations/Mycharacter/jumping_down_1.uasset" SILENT=true
+[2014.09.16-19.29.48:594][ 80]LogSavePackage: Save=1289.552124ms
+[2014.09.16-19.29.48:594][ 80]LogSavePackage: Moving 'K:/UnrealProject/EpicGames/FirstGame/Saved/jumping_down_1BBDD27A64DF0006D9E627D9B81AD7E38.tmp' to 'K:/UnrealProject/EpicGames/FirstGame/Content/Animations/Mycharacter/jumping_down_1.uasset'
+[2014.09.16-19.29.48:653][ 80]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Animations/Mycharacter/jumping_up_1" FILE="K:/UnrealProject/EpicGames/FirstGame/Content/Animations/Mycharacter/jumping_up_1.uasset" SILENT=true
+[2014.09.16-19.29.49:760][ 80]LogSavePackage: Save=1099.223633ms
+[2014.09.16-19.29.49:760][ 80]LogSavePackage: Moving 'K:/UnrealProject/EpicGames/FirstGame/Saved/jumping_up_15110C243447777C29E03829AFD543891.tmp' to 'K:/UnrealProject/EpicGames/FirstGame/Content/Animations/Mycharacter/jumping_up_1.uasset'
+[2014.09.16-19.29.49:805][ 80]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Animations/Mycharacter/rifle_idle_1" FILE="K:/UnrealProject/EpicGames/FirstGame/Content/Animations/Mycharacter/rifle_idle_1.uasset" SILENT=true
+[2014.09.16-19.29.50:966][ 80]LogSavePackage: Save=1154.596924ms
+[2014.09.16-19.29.50:967][ 80]LogSavePackage: Moving 'K:/UnrealProject/EpicGames/FirstGame/Saved/rifle_idle_1ADC94AF647962720FF0795BAA0D66324.tmp' to 'K:/UnrealProject/EpicGames/FirstGame/Content/Animations/Mycharacter/rifle_idle_1.uasset'
+[2014.09.16-19.29.51:021][ 80]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Animations/Mycharacter/run_backwards_1" FILE="K:/UnrealProject/EpicGames/FirstGame/Content/Animations/Mycharacter/run_backwards_1.
