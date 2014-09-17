@@ -1,4 +1,8 @@
+<<<<<<< HEAD
+Log file open, 09/16/14 21:54:19
+=======
 Log file open, 09/16/14 21:07:27
+>>>>>>> origin/master
 LogInit:Display: Running engine for game: FirstGame
 LogInit: Version: 4.4.3-2296771+++depot+UE4-Releases+4.4
 LogInit: API Version: 2255576
@@ -6,6 +10,603 @@ LogInit: Compiled (64-bit): Sep 13 2014 22:30:58
 LogInit: Build Configuration: Development
 LogInit: Branch Name: ++depot+UE4-Releases+4.4
 LogInit: Command line:  
+<<<<<<< HEAD
+LogInit: Base directory: D:/Programme/Unreal Engine/4.4/Engine/Binaries/Win64/
+LogInit: Rocket: 1
+[2014.09.16-19.54.19:375][  0]LogTaskGraph: Started task graph with 3 named threads and 4 total threads.
+[2014.09.16-19.54.19:399][  0]LogOnline:Warning: No default platform service specified for OnlineSubsystem
+[2014.09.16-19.54.19:404][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2014.09.16-19.54.19:408][  0]LogInit: Object subsystem initialized
+[2014.09.16-19.54.19:410][  0]LogInit: Selected Device Profile: [Windows]
+[2014.09.16-19.54.19:410][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2014.09.16-19.54.19:413][  0]LogInit: Computer: MASTERPC
+[2014.09.16-19.54.19:413][  0]LogInit: User: Endero
+[2014.09.16-19.54.19:414][  0]LogInit: CPU Page size=4096, Cores=4
+[2014.09.16-19.54.19:414][  0]LogInit: High frequency timer resolution =3.513623 MHz
+[2014.09.16-19.54.19:414][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx) Virtual=8192.0GB
+[2014.09.16-19.54.19:414][  0]LogMemory: Platform Memory Stats for Windows
+[2014.09.16-19.54.19:414][  0]LogMemory: Process Physical Memory: 62.54 MB used, 62.54 MB peak
+[2014.09.16-19.54.19:414][  0]LogMemory: Process Virtual Memory: 38.32 MB used, 38.32 MB peak
+[2014.09.16-19.54.19:414][  0]LogMemory: Physical Memory: 5998.03 MB used, 16321.48 MB total
+[2014.09.16-19.54.19:414][  0]LogMemory: Virtual Memory: 261.14 MB used, 8388608.00 MB total
+[2014.09.16-19.54.19:430][  0]LogD3D11RHI: Found D3D11 adapter 0: AMD Radeon R9 200 Series (Feature Level 11_0)
+[2014.09.16-19.54.19:430][  0]LogD3D11RHI: Adapter has 2022MB of dedicated video memory, 0MB of dedicated system memory, and 7904MB of shared system memory, 2 output[s]
+[2014.09.16-19.54.19:430][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2014.09.16-19.54.19:435][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2014.09.16-19.54.19:439][  0]LogD3D11RHI: Async texture creation disabled: no driver support
+[2014.09.16-19.54.19:474][  0]LogTextLocalizationManager:Warning: The selected culture 'de_CH' is not available; falling back to 'en'
+[2014.09.16-19.54.19:526][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2014.09.16-19.54.20:529][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2014.09.16-19.54.20:772][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2014.09.16-19.54.20:794][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2014.09.16-19.54.20:825][  0]LogDerivedDataCache: Loaded boot cache 0.03s 39MB C:/Users/Endero/AppData/Local/UnrealEngine/4.4/DerivedDataCache/Boot.ddc.
+[2014.09.16-19.54.20:825][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Endero/AppData/Local/UnrealEngine/4.4/DerivedDataCache/Boot.ddc
+[2014.09.16-19.54.20:825][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Github/UnrealEngine/FirstGame/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2014.09.16-19.54.20:825][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2014.09.16-19.54.20:837][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/DDC.ddp.
+[2014.09.16-19.54.20:848][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Endero/AppData/Local/UnrealEngine/4.4/DerivedDataCache: Writable
+[2014.09.16-19.54.20:946][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2014.09.16-19.54.20:946][  0]LogMeshUtilities: No automatic mesh merging module available
+[2014.09.16-19.54.21:161][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2014.09.16-19.54.21:649][  0]LogStats:Warning: MetaData mismatch. Did you assign a stat to two groups? New //STATGROUP_Threads//FMonitoredProcess///Thread_3388_0///////STATCAT_Advanced//// old //STATGROUP_Threads//FMonitoredProcess///Thread_181c_0///////STATCAT_Advanced////
+[2014.09.16-19.54.21:649][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2014.09.16-19.54.21:725][  0]SourceControl: Info Source control is disabled
+[2014.09.16-19.54.21:725][  0]SourceControl: Info Source control is disabled
+[2014.09.16-19.54.21:728][  0]SourceControl: Info Source control is disabled
+[2014.09.16-19.54.21:812][  0]BlueprintLog: New page: Editor Load
+[2014.09.16-19.54.21:857][  0]LogObj: 21438 objects as part of root set at end of initial load.
+[2014.09.16-19.54.21:857][  0]LogUObjectAllocator: 4218656 out of 0 bytes used by permanent object pool.
+[2014.09.16-19.54.22:001][  0]LogEngine: Initializing Engine...
+[2014.09.16-19.54.22:064][  0]LogInit: XAudio2 using 'Lautsprecher (2- Wireless Stereo Headset)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2014.09.16-19.54.22:071][  0]LogInit: FAudioDevice initialized.
+[2014.09.16-19.54.22:079][  0]LogAIModule: Creating AISystem for world NewWorld
+[2014.09.16-19.54.22:098][  0]LogDerivedDataCache: Saved boot cache 0.02s 39MB C:/Users/Endero/AppData/Local/UnrealEngine/4.4/DerivedDataCache/Boot.ddc.
+[2014.09.16-19.54.22:102][  0]LogInit: Texture streaming: Enabled
+[2014.09.16-19.54.22:118][  0]LogInit: Transaction tracking system initialized
+[2014.09.16-19.54.22:171][  0]LogAssetRegistry: FAssetRegistry took 0.0101 seconds to start up
+[2014.09.16-19.54.22:437][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2014.09.16-19.54.22:629][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2014.09.16-19.54.22:689][  0]LogConsoleResponse:Display: 
+[2014.09.16-19.54.22:776][  0]LogStats:Warning: MetaData mismatch. Did you assign a stat to two groups? New //STATGROUP_Threads//FMonitoredProcess///Thread_2dd0_0///////STATCAT_Advanced//// old //STATGROUP_Threads//FMonitoredProcess///Thread_181c_0///////STATCAT_Advanced////
+[2014.09.16-19.54.22:776][  0]LogStats:Warning: MetaData mismatch. Did you assign a stat to two groups? New //STATGROUP_Threads//FMonitoredProcess///Thread_30b0_0///////STATCAT_Advanced//// old //STATGROUP_Threads//FMonitoredProcess///Thread_181c_0///////STATCAT_Advanced////
+[2014.09.16-19.54.22:776][  0]SourceControl: Info Source control is disabled
+[2014.09.16-19.54.22:776][  0]Cmd: MAP LOAD FILE="../../../../../../Github/UnrealEngine/FirstGame/Content/Maps/Example_Map.umap" TEMPLATE=0 SHOWPROGRESS=1
+[2014.09.16-19.54.22:776][  0]LightingResults: New page: Lighting Build
+[2014.09.16-19.54.22:780][  0]MapCheck: New page: Map Check
+[2014.09.16-19.54.22:780][  0]LightingResults: New page: Lighting Build
+[2014.09.16-19.54.22:789][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000012FA39C0
+[2014.09.16-19.54.22:908][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2014.09.16-19.54.22:908][  0]LogAIModule: Creating AISystem for world Example_Map
+[2014.09.16-19.54.22:909][  0]Cmd: MAP CHECKDEP
+[2014.09.16-19.54.22:909][  0]MapCheck: New page: Example_Map - Sep 16, 2014, 11:54:22 PM
+[2014.09.16-19.54.22:937][  0]MapCheck: Info ========== Map Check: 0 Error(s), 0 Warning(s), [28.136ms] ==========
+[2014.09.16-19.54.22:937][  0]LogFileHelpers: Loading map 'Example_Map' took 0.161
+[2014.09.16-19.54.23:025][  0]LogCollectionManager: Loaded 0 collections in 0.000578 seconds
+[2014.09.16-19.54.23:081][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2014.09.16-19.54.23:118][  0]LogLoad: Full Startup: 5.18 seconds (BP compile: 0.04 seconds)
+[2014.09.16-19.54.23:240][  0]LogRenderer:Warning: Reallocating scene render targets to support 1104x912.
+[2014.09.16-19.54.23:427][  1]LogAssetRegistry: Asset discovery search completed in 1.2665 seconds
+[2014.09.16-19.54.38:906][494]Cmd: MAP LOAD FILE="../../../../../../Github/UnrealEngine/FirstGame/Content/Maps/Menu.umap" TEMPLATE=0 SHOWPROGRESS=1
+[2014.09.16-19.54.38:906][494]LightingResults: New page: Lighting Build
+[2014.09.16-19.54.38:924][494]LoadErrors: New page: Loading map: Menu.umap
+[2014.09.16-19.54.38:924][494]MapCheck: New page: Map Check
+[2014.09.16-19.54.38:924][494]LightingResults: New page: Lighting Build
+[2014.09.16-19.54.38:934][494]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000120AD800
+[2014.09.16-19.54.38:943][494]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2014.09.16-19.54.38:943][494]LogAIModule: Creating AISystem for world Menu
+[2014.09.16-19.54.38:951][494]Cmd: MAP CHECKDEP
+[2014.09.16-19.54.38:951][494]MapCheck: New page: Menu - Sep 16, 2014, 11:54:38 PM
+[2014.09.16-19.54.38:977][494]MapCheck: Info ========== Map Check: 0 Error(s), 0 Warning(s), [26.378ms] ==========
+[2014.09.16-19.54.38:977][494]LogFileHelpers: Loading map 'Menu' took 0.072
+[2014.09.16-19.54.45:131][230]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game'
+[2014.09.16-19.54.46:535][394]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/NewFolder'
+[2014.09.16-19.54.48:743][659]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Interface'
+[2014.09.16-19.55.10:036][ 45]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Interface'
+[2014.09.16-20.03.13:406][466]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.09.16-20.03.13:432][466]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanelSlot /Engine/Transient.World_1:Menu_C_12.WidgetTree_64.CanvasPanel_0.CanvasPanelSlot_4395 or CanvasPanelSlot /Game/Interface/Menu.Menu_C:WidgetTree_63.CanvasPanel_0.CanvasPanelSlot_4395
+[2014.09.16-20.03.13:432][466]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanelSlot /Engine/Transient.World_1:Menu_C_12.WidgetTree_64.CanvasPanel_0.CanvasPanelSlot_4395 or CanvasPanelSlot /Game/Interface/Menu.SKEL_Menu_C:WidgetTree_62.CanvasPanel_0.CanvasPanelSlot_4395
+[2014.09.16-20.03.13:432][466]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanelSlot /Engine/Transient.World_1:Menu_C_12.WidgetTree_64.CanvasPanel_0.CanvasPanelSlot_4395 or CanvasPanelSlot /Engine/Transient.Default__REINST_SKEL_Menu_C_22:WidgetTree_60.CanvasPanel_0.CanvasPanelSlot_4395
+[2014.09.16-20.03.13:432][466]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanelSlot /Engine/Transient.World_1:Menu_C_12.WidgetTree_64.CanvasPanel_0.CanvasPanelSlot_4395 or CanvasPanelSlot /Engine/Transient.REINST_SKEL_Menu_C_22:WidgetTree_57.CanvasPanel_0.CanvasPanelSlot_4395
+[2014.09.16-20.03.13:432][466]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanelSlot /Engine/Transient.World_1:Menu_C_12.WidgetTree_64.CanvasPanel_0.CanvasPanelSlot_4395 or CanvasPanelSlot /Engine/Transient.World_1:Menu_C_11.WidgetTree_59.CanvasPanel_0.CanvasPanelSlot_4395
+[2014.09.16-20.03.13:432][466]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanelSlot /Engine/Transient.World_1:Menu_C_12.WidgetTree_64.CanvasPanel_0.CanvasPanelSlot_4395 or CanvasPanelSlot /Game/Interface/Menu.Menu_C:WidgetTree_58.CanvasPanel_0.CanvasPanelSlot_4395
+[2014.09.16-20.03.13:432][466]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanelSlot /Engine/Transient.World_1:Menu_C_12.WidgetTree_64.CanvasPanel_0.CanvasPanelSlot_4395 or CanvasPanelSlot /Game/Interface/Menu.SKEL_Menu_C:WidgetTree_57.CanvasPanel_0.CanvasPanelSlot_4395
+[2014.09.16-20.03.13:432][466]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanelSlot /Engine/Transient.World_1:Menu_C_12.WidgetTree_64.CanvasPanel_0.CanvasPanelSlot_4395 or CanvasPanelSlot /Game/Interface/Menu.Menu:WidgetTree_1.CanvasPanel_0.CanvasPanelSlot_4395
+[2014.09.16-20.03.13:432][466]LogProperty:Warning: Illegal TEXT reference to a private object in external package (CanvasPanelSlot /Engine/Transient.World_1:Menu_C_12.WidgetTree_64.CanvasPanel_0.CanvasPanelSlot_4395) from referencer (Button /Engine/UMG/Editor/Transient.Button_GameStart).  Import failed...
+[2014.09.16-20.03.13:432][466]LogProperty:Warning: ObjectProperty /Script/UMG.Widget:Slot: unresolved reference to 'CanvasPanelSlot'CanvasPanelSlot_4395''
+[2014.09.16-20.04.23:945][367]BlueprintLog: New page: Compile Menu
+[2014.09.16-20.04.24:009][367]BlueprintEditorCompileResults: Info [0606.00] Compile of Menu successful! [in 0 ms]
+[2014.09.16-20.04.24:683][435]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Interface/Menu" FILE="../../../../../../Github/UnrealEngine/FirstGame/Content/Interface/Menu.uasset" SILENT=true
+[2014.09.16-20.04.24:692][435]LogSavePackage: Save=7.016120ms
+[2014.09.16-20.04.24:692][435]LogSavePackage: Moving '../../../../../../Github/UnrealEngine/FirstGame/Saved/Menu8A732CEF4F273D4E01953A91748243D3.tmp' to '../../../../../../Github/UnrealEngine/FirstGame/Content/Interface/Menu.uasset'
+[2014.09.16-20.05.13:096][303]BlueprintLog: New page: Compile Menu
+[2014.09.16-20.05.13:143][303]BlueprintEditorCompileResults: Info [0655.15] Compile of Menu successful! [in 0 ms]
+[2014.09.16-20.05.13:709][360]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Interface/Menu" FILE="../../../../../../Github/UnrealEngine/FirstGame/Content/Interface/Menu.uasset" SILENT=true
+[2014.09.16-20.05.13:727][360]LogSavePackage: Save=11.087132ms
+[2014.09.16-20.05.13:727][360]LogSavePackage: Moving '../../../../../../Github/UnrealEngine/FirstGame/Saved/Menu8EE8AD414D0DFB75A310C78DE0BCDB35.tmp' to '../../../../../../Github/UnrealEngine/FirstGame/Content/Interface/Menu.uasset'
+[2014.09.16-20.10.50:029][175]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Interface/Menu" FILE="../../../../../../Github/UnrealEngine/FirstGame/Content/Interface/Menu.uasset" SILENT=true
+[2014.09.16-20.10.50:054][175]LogSavePackage: Save=18.086460ms
+[2014.09.16-20.10.50:054][175]LogSavePackage: Moving '../../../../../../Github/UnrealEngine/FirstGame/Saved/MenuFC4B9401469A37EE6E6FCD8BC5B22E5D.tmp' to '../../../../../../Github/UnrealEngine/FirstGame/Content/Interface/Menu.uasset'
+[2014.09.16-20.10.56:951][  1]BlueprintLog: New page: Compile Menu
+[2014.09.16-20.10.56:998][  1]BlueprintEditorCompileResults: Info [0999.00] Compile of Menu successful! [in 0 ms]
+[2014.09.16-20.12.26:540][876]BlueprintLog: New page: Compile Menu
+[2014.09.16-20.12.26:596][876]BlueprintEditorCompileResults: Info [1088.59] Compile of Menu successful! [in 0 ms]
+[2014.09.16-20.12.27:132][928]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Interface/Menu" FILE="../../../../../../Github/UnrealEngine/FirstGame/Content/Interface/Menu.uasset" SILENT=true
+[2014.09.16-20.12.27:145][928]LogSavePackage: Save=7.892423ms
+[2014.09.16-20.12.27:145][928]LogSavePackage: Moving '../../../../../../Github/UnrealEngine/FirstGame/Saved/Menu7AC5231949777BDDAF1A1F91DCF64AD0.tmp' to '../../../../../../Github/UnrealEngine/FirstGame/Content/Interface/Menu.uasset'
+[2014.09.16-20.13.03:932][266]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Interface'
+[2014.09.16-20.13.08:823][849]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Interface/Styles'
+[2014.09.16-20.13.09:874][969]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Interface/Styles'
+[2014.09.16-20.13.13:533][408]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Interface/Styles/Assets'
+[2014.09.16-20.13.58:335][784]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Interface/Styles'
+[2014.09.16-20.14.09:421][719]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Interface/Styles'
+[2014.09.16-20.15.16:561][600]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Textures'
+[2014.09.16-20.15.19:793][970]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Menu' took 0.012
+[2014.09.16-20.15.19:808][970]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Interface/Styles/MenuButton] ([1] browsable assets)...
+[2014.09.16-20.15.19:822][970]OBJ SavePackage: Finished generating thumbnails for package [/Game/Interface/Styles/MenuButton]
+[2014.09.16-20.15.19:876][970]LogSavePackage: Save=6.773920ms
+[2014.09.16-20.15.19:876][970]LogSavePackage: Moving '../../../../../../Github/UnrealEngine/FirstGame/Saved/MenuButton_Auto1DF9C02314A6149C736C3AF8547D9B2B4.tmp' to '../../../../../../Github/UnrealEngine/FirstGame/Saved/Autosaves/Game/Interface/Styles/MenuButton_Auto1.uasset'
+[2014.09.16-20.15.19:879][970]LogFileHelpers: Auto-saving content packages took 0.086
+[2014.09.16-20.15.33:610][467]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Interface/Styles/Assets'
+[2014.09.16-20.15.39:460][161]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Interface/Styles/Assets/default" FILE="../../../../../../Github/UnrealEngine/FirstGame/Content/Interface/Styles/Assets/default.uasset" SILENT=true
+[2014.09.16-20.15.39:760][161]LogSavePackage: Save=297.817963ms
+[2014.09.16-20.15.39:760][161]LogSavePackage: Moving '../../../../../../Github/UnrealEngine/FirstGame/Saved/default3B4D144A426EDEADED8B44B315674C33.tmp' to '../../../../../../Github/UnrealEngine/FirstGame/Content/Interface/Styles/Assets/default.uasset'
+[2014.09.16-20.15.44:427][708]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Interface/Styles/Assets/Hover" FILE="../../../../../../Github/UnrealEngine/FirstGame/Content/Interface/Styles/Assets/Hover.uasset" SILENT=true
+[2014.09.16-20.15.44:649][708]LogSavePackage: Save=220.262680ms
+[2014.09.16-20.15.44:649][708]LogSavePackage: Moving '../../../../../../Github/UnrealEngine/FirstGame/Saved/Hover1CDEB3AF4B836ED0F32A66AE05DD56E9.tmp' to '../../../../../../Github/UnrealEngine/FirstGame/Content/Interface/Styles/Assets/Hover.uasset'
+[2014.09.16-20.15.59:578][416]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Interface/Styles/Assets/Overlay" FILE="../../../../../../Github/UnrealEngine/FirstGame/Content/Interface/Styles/Assets/Overlay.uasset" SILENT=true
+[2014.09.16-20.15.59:802][416]LogSavePackage: Save=221.867279ms
+[2014.09.16-20.15.59:802][416]LogSavePackage: Moving '../../../../../../Github/UnrealEngine/FirstGame/Saved/Overlay118B0E6E4BE7AD9F82B5288CF5519BC3.tmp' to '../../../../../../Github/UnrealEngine/FirstGame/Content/Interface/Styles/Assets/Overlay.uasset'
+[2014.09.16-20.16.23:604][893]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Textures'
+[2014.09.16-20.16.52:079][112]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Interface/Styles/Assets'
+[2014.09.16-20.16.56:463][630]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Interface/Styles/Assets/Click" FILE="../../../../../../Github/UnrealEngine/FirstGame/Content/Interface/Styles/Assets/Click.uasset" SILENT=true
+[2014.09.16-20.16.56:623][630]LogSavePackage: Save=158.773148ms
+[2014.09.16-20.16.56:623][630]LogSavePackage: Moving '../../../../../../Github/UnrealEngine/FirstGame/Saved/Click77D276154AC60816E4585DBDEEF32BC1.tmp' to '../../../../../../Github/UnrealEngine/FirstGame/Content/Interface/Styles/Assets/Click.uasset'
+[2014.09.16-20.17.02:913][371]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Interface/Styles/Assets/Clicked" FILE="../../../../../../Github/UnrealEngine/FirstGame/Content/Interface/Styles/Assets/Clicked.uasset" SILENT=true
+[2014.09.16-20.17.03:071][371]LogSavePackage: Save=155.745789ms
+[2014.09.16-20.17.03:071][371]LogSavePackage: Moving '../../../../../../Github/UnrealEngine/FirstGame/Saved/Clicked6DC4BC7743995BE421D273B85D3DF48D.tmp' to '../../../../../../Github/UnrealEngine/FirstGame/Content/Interface/Styles/Assets/Clicked.uasset'
+[2014.09.16-20.17.09:379][110]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Interface/Styles/Assets/Disabled" FILE="../../../../../../Github/UnrealEngine/FirstGame/Content/Interface/Styles/Assets/Disabled.uasset" SILENT=true
+[2014.09.16-20.17.09:559][110]LogSavePackage: Save=177.506241ms
+[2014.09.16-20.17.09:559][110]LogSavePackage: Moving '../../../../../../Github/UnrealEngine/FirstGame/Saved/DisabledAE6057954BEE49A9ED51F0AABC915E02.tmp' to '../../../../../../Github/UnrealEngine/FirstGame/Content/Interface/Styles/Assets/Disabled.uasset'
+[2014.09.16-20.17.26:240][  1]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Interface/Styles/MenuButton" FILE="../../../../../../Github/UnrealEngine/FirstGame/Content/Interface/Styles/MenuButton.uasset" SILENT=true
+[2014.09.16-20.17.26:247][  1]LogSavePackage: Save=4.578750ms
+[2014.09.16-20.17.26:247][  1]LogSavePackage: Moving '../../../../../../Github/UnrealEngine/FirstGame/Saved/MenuButton0CC7B29E455AB97DACD02A8E5C2EDD49.tmp' to '../../../../../../Github/UnrealEngine/FirstGame/Content/Interface/Styles/MenuButton.uasset'
+[2014.09.16-20.17.32:903][707]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Interface/Styles'
+[2014.09.16-20.18.19:125][188]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Interface/Styles/MenuButton" FILE="../../../../../../Github/UnrealEngine/FirstGame/Content/Interface/Styles/MenuButton.uasset" SILENT=true
+[2014.09.16-20.18.19:135][188]LogSavePackage: Save=4.421647ms
+[2014.09.16-20.18.19:135][188]LogSavePackage: Moving '../../../../../../Github/UnrealEngine/FirstGame/Saved/MenuButton7B022CDC4A2D58A24737F78279318C88.tmp' to '../../../../../../Github/UnrealEngine/FirstGame/Content/Interface/Styles/MenuButton.uasset'
+[2014.09.16-20.18.23:045][657]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Audio'
+[2014.09.16-20.19.26:678][989]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Interface/Styles/MenuButton" FILE="../../../../../../Github/UnrealEngine/FirstGame/Content/Interface/Styles/MenuButton.uasset" SILENT=true
+[2014.09.16-20.19.26:689][989]LogSavePackage: Save=5.017044ms
+[2014.09.16-20.19.26:689][989]LogSavePackage: Moving '../../../../../../Github/UnrealEngine/FirstGame/Saved/MenuButtonFD232B8E417E008E5C538C8A32020EE2.tmp' to '../../../../../../Github/UnrealEngine/FirstGame/Content/Interface/Styles/MenuButton.uasset'
+[2014.09.16-20.19.31:934][527]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Interface/Styles/Assets'
+[2014.09.16-20.19.35:566][962]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Interface'
+[2014.09.16-20.19.57:041][333]BlueprintLog: New page: Compile Menu
+[2014.09.16-20.19.57:102][333]BlueprintEditorCompileResults: Info [1539.09] Compile of Menu successful! [in 0 ms]
+[2014.09.16-20.20.53:196][504]BlueprintLog: New page: Compile Menu
+[2014.09.16-20.20.53:249][504]BlueprintEditorCompileResults: Info [1595.24] Compile of Menu successful! [in 0 ms]
+[2014.09.16-20.20.54:147][598]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Interface/Menu" FILE="../../../../../../Github/UnrealEngine/FirstGame/Content/Interface/Menu.uasset" SILENT=true
+[2014.09.16-20.20.54:172][598]LogSavePackage: Save=8.614185ms
+[2014.09.16-20.20.54:172][598]LogSavePackage: Moving '../../../../../../Github/UnrealEngine/FirstGame/Saved/Menu1BD4C2A84C3BF4F1A173F6912C5765A7.tmp' to '../../../../../../Github/UnrealEngine/FirstGame/Content/Interface/Menu.uasset'
+[2014.09.16-20.22.27:961][907]BlueprintLog: New page: Compile Menu
+[2014.09.16-20.22.28:023][907]BlueprintEditorCompileResults: Info [1690.01] Compile of Menu successful! [in 0 ms]
+[2014.09.16-20.22.28:516][956]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Interface/Menu" FILE="../../../../../../Github/UnrealEngine/FirstGame/Content/Interface/Menu.uasset" SILENT=true
+[2014.09.16-20.22.28:529][956]LogSavePackage: Save=7.973251ms
+[2014.09.16-20.22.28:529][956]LogSavePackage: Moving '../../../../../../Github/UnrealEngine/FirstGame/Saved/MenuEE8E1A0045682873DDA80991B134F2AE.tmp' to '../../../../../../Github/UnrealEngine/FirstGame/Content/Interface/Menu.uasset'
+[2014.09.16-20.23.33:043][113]BlueprintLog: New page: Compile Menu
+[2014.09.16-20.23.33:100][113]BlueprintEditorCompileResults: Info [1755.09] Compile of Menu successful! [in 0 ms]
+[2014.09.16-20.23.34:602][228]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Interface/Menu" FILE="../../../../../../Github/UnrealEngine/FirstGame/Content/Interface/Menu.uasset" SILENT=true
+[2014.09.16-20.23.34:617][228]LogSavePackage: Save=8.973928ms
+[2014.09.16-20.23.34:617][228]LogSavePackage: Moving '../../../../../../Github/UnrealEngine/FirstGame/Saved/Menu35DA643D40A8BC94DD0C1389EA10D4F1.tmp' to '../../../../../../Github/UnrealEngine/FirstGame/Content/Interface/Menu.uasset'
+[2014.09.16-20.23.46:229][424]BlueprintLog: New page: Compile Menu
+[2014.09.16-20.23.46:281][424]BlueprintEditorCompileResults: Info [1768.28] Compile of Menu successful! [in 0 ms]
+[2014.09.16-20.23.46:736][472]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Interface/Menu" FILE="../../../../../../Github/UnrealEngine/FirstGame/Content/Interface/Menu.uasset" SILENT=true
+[2014.09.16-20.23.46:751][472]LogSavePackage: Save=8.997550ms
+[2014.09.16-20.23.46:751][472]LogSavePackage: Moving '../../../../../../Github/UnrealEngine/FirstGame/Saved/Menu9C319B164ADD3DBEF9C9FB853A9CF2DA.tmp' to '../../../../../../Github/UnrealEngine/FirstGame/Content/Interface/Menu.uasset'
+[2014.09.16-20.23.54:787][340]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.09.16-20.23.54:787][340]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.09.16-20.23.54:995][340]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.09.16-20.23.54:996][340]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.09.16-20.23.54:996][340]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.09.16-20.23.54:996][340]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.09.16-20.23.54:996][340]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.09.16-20.23.54:996][340]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.09.16-20.23.54:996][340]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.09.16-20.23.54:996][340]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.09.16-20.23.54:996][340]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.09.16-20.23.54:996][340]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.09.16-20.23.54:996][340]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.09.16-20.23.54:996][340]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.09.16-20.23.54:996][340]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.09.16-20.23.54:996][340]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.09.16-20.23.54:996][340]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.09.16-20.23.54:996][340]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.09.16-20.24.03:510][315]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.09.16-20.24.03:511][315]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.09.16-20.24.03:511][315]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.09.16-20.24.03:511][315]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.09.16-20.24.09:150][976]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2014.09.16-20.24.13:950][537]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.09.16-20.24.13:950][537]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.09.16-20.24.13:950][537]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.09.16-20.24.13:950][537]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.09.16-20.24.13:950][537]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.09.16-20.24.13:951][537]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.09.16-20.24.13:951][537]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.09.16-20.24.13:951][537]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.09.16-20.25.14:026][503]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Menu" FILE="../../../../../../Github/UnrealEngine/FirstGame/Saved/Autosaves/Game/Maps/Menu_Auto2.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2014.09.16-20.25.14:088][503]LogSavePackage: Save=41.459770ms
+[2014.09.16-20.25.14:088][503]LogSavePackage: Moving '../../../../../../Github/UnrealEngine/FirstGame/Saved/Menu_Auto219D9A5614DC163D4B5BC259FEC86A818.tmp' to '../../../../../../Github/UnrealEngine/FirstGame/Saved/Autosaves/Game/Maps/Menu_Auto2.umap'
+[2014.09.16-20.25.14:093][503]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Menu' took 0.102
+[2014.09.16-20.25.14:093][503]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.102
+[2014.09.16-20.25.14:132][503]LogSavePackage: Save=4.177739ms
+[2014.09.16-20.25.14:132][503]LogSavePackage: Moving '../../../../../../Github/UnrealEngine/FirstGame/Saved/T_Brick_Clay_Beveled_D_Auto27AD5A4F94BADD895316674BBDFF1A0F5.tmp' to '../../../../../../Github/UnrealEngine/FirstGame/Saved/Autosaves/Game/Interface/Styles/Assets/T_Brick_Clay_Beveled_D_Auto2.uasset'
+[2014.09.16-20.25.14:158][503]LogSavePackage: Save=4.175462ms
+[2014.09.16-20.25.14:158][503]LogSavePackage: Moving '../../../../../../Github/UnrealEngine/FirstGame/Saved/T_Brick_Clay_New_D_Auto24A5E338145017993F4EE94B59379E314.tmp' to '../../../../../../Github/UnrealEngine/FirstGame/Saved/Autosaves/Game/Interface/Styles/Assets/T_Brick_Clay_New_D_Auto2.uasset'
+[2014.09.16-20.25.14:215][503]LogSavePackage: Save=5.506282ms
+[2014.09.16-20.25.14:215][503]LogSavePackage: Moving '../../../../../../Github/UnrealEngine/FirstGame/Saved/T_CobbleStone_Rough_D_Auto2CD0B4DAB49A8EF9195D812B1F8E4DB98.tmp' to '../../../../../../Github/UnrealEngine/FirstGame/Saved/Autosaves/Game/Interface/Styles/Assets/T_CobbleStone_Rough_D_Auto2.uasset'
+[2014.09.16-20.25.14:994][503]LogSavePackage: Save=4.965530ms
+[2014.09.16-20.25.14:994][503]LogSavePackage: Moving '../../../../../../Github/UnrealEngine/FirstGame/Saved/T_Concrete_Grime_D_Auto26B5487BE4C38F6BC1131D2A947D17E7A.tmp' to '../../../../../../Github/UnrealEngine/FirstGame/Saved/Autosaves/Game/Interface/Styles/Assets/T_Concrete_Grime_D_Auto2.uasset'
+[2014.09.16-20.25.14:998][503]LogFileHelpers: Auto-saving content packages took 0.905
+[2014.09.16-20.25.33:297][659]BlueprintLog: New page: Compile Menu
+[2014.09.16-20.25.33:433][659]BlueprintEditorCompileResults: Info [1875.41] Compile of Menu successful! [in 0 ms]
+[2014.09.16-20.25.36:162][964]BlueprintLog: New page: Pre-PIE auto-recompile
+[2014.09.16-20.25.36:162][964]LogPlayLevel: [PIE] Compiling Menu before PIE...
+[2014.09.16-20.25.36:209][964]LogPlayLevel: PIE:  Blueprint regeneration took 46 ms (1 blueprints)
+[2014.09.16-20.25.36:209][964]PIE: New page: PIE session: Menu (Sep 17, 2014, 12:25:36 AM)
+[2014.09.16-20.25.36:210][964]LogPlayLevel: PIE: StaticDuplicateObject took: (0.000582s)
+[2014.09.16-20.25.36:210][964]LogPlayLevel: PIE: World Init took: (0.000394s)
+[2014.09.16-20.25.36:210][964]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Menu.Menu to /Game/Maps/UEDPIE_0_Menu.Menu (0.001093s)
+[2014.09.16-20.25.36:394][964]BlueprintLog:Warning: Warning Blueprint MyProjectile has been migrated and requires re-saving to avoid import errors
+[2014.09.16-20.25.36:394][964]BlueprintLog:Warning: Warning Blueprint MyCharacter has been migrated and requires re-saving to avoid import errors
+[2014.09.16-20.25.36:394][964]BlueprintLog:Warning: Warning Blueprint MyHUD has been migrated and requires re-saving to avoid import errors
+[2014.09.16-20.25.36:395][964]BlueprintLog:Warning: Warning Blueprint MyGame has been migrated and requires re-saving to avoid import errors
+[2014.09.16-20.25.36:395][964]LogWorld: Game class is 'MyGame_C'
+[2014.09.16-20.25.36:396][964]LogAIModule: Creating AISystem for world Menu
+[2014.09.16-20.25.36:396][964]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Menu.Menu up for play (max tick rate 0) at 2014.09.16-22.25.36
+[2014.09.16-20.25.36:396][964]LogWorld: Bringing up level for play took: 0.000423
+[2014.09.16-20.25.36:429][964]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Menu 0.575
+[2014.09.16-20.25.47:541][284]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000001F3DE0C0
+[2014.09.16-20.25.47:541][284]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000014CED300
+[2014.09.16-20.25.47:551][285]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000001BFA1B20
+[2014.09.16-20.27.17:810][144]BlueprintLog: New page: Compile Menu
+[2014.09.16-20.27.17:862][144]BlueprintEditorCompileResults: Info [1979.85] Compile of Menu successful! [in 0 ms]
+[2014.09.16-20.27.18:259][188]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Interface/Menu" FILE="../../../../../../Github/UnrealEngine/FirstGame/Content/Interface/Menu.uasset" SILENT=true
+[2014.09.16-20.27.18:274][188]LogSavePackage: Save=8.395039ms
+[2014.09.16-20.27.18:274][188]LogSavePackage: Moving '../../../../../../Github/UnrealEngine/FirstGame/Saved/MenuC62F3AE842F3F59E000C1C887CDB1A9E.tmp' to '../../../../../../Github/UnrealEngine/FirstGame/Content/Interface/Menu.uasset'
+[2014.09.16-20.27.22:237][654]BlueprintLog: New page: Pre-PIE auto-recompile
+[2014.09.16-20.27.22:237][654]LogPlayLevel: [PIE] Compiling Menu before PIE...
+[2014.09.16-20.27.22:277][654]LogPlayLevel: PIE:  Blueprint regeneration took 39 ms (1 blueprints)
+[2014.09.16-20.27.22:277][654]PIE: New page: PIE session: Menu (Sep 17, 2014, 12:27:22 AM)
+[2014.09.16-20.27.22:277][654]LogPlayLevel: PIE: StaticDuplicateObject took: (0.000536s)
+[2014.09.16-20.27.22:278][654]LogPlayLevel: PIE: World Init took: (0.000486s)
+[2014.09.16-20.27.22:278][654]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Menu.Menu to /Game/Maps/UEDPIE_0_Menu.Menu (0.001119s)
+[2014.09.16-20.27.22:304][654]LogWorld: Game class is 'MyGame_C'
+[2014.09.16-20.27.22:305][654]LogAIModule: Creating AISystem for world Menu
+[2014.09.16-20.27.22:305][654]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Menu.Menu up for play (max tick rate 0) at 2014.09.16-22.27.22
+[2014.09.16-20.27.22:305][654]LogWorld: Bringing up level for play took: 0.000303
+[2014.09.16-20.27.22:307][654]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Menu 0.452
+[2014.09.16-20.27.43:308][158]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000002ADBBC40
+[2014.09.16-20.27.43:314][159]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000002AB09A80
+[2014.09.16-20.27.55:918][567]BlueprintLog: New page: Compile Menu
+[2014.09.16-20.27.55:978][567]BlueprintEditorCompileResults: Info [2017.97] Compile of Menu successful! [in 0 ms]
+[2014.09.16-20.27.56:460][615]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Interface/Menu" FILE="../../../../../../Github/UnrealEngine/FirstGame/Content/Interface/Menu.uasset" SILENT=true
+[2014.09.16-20.27.56:473][615]LogSavePackage: Save=8.055218ms
+[2014.09.16-20.27.56:473][615]LogSavePackage: Moving '../../../../../../Github/UnrealEngine/FirstGame/Saved/Menu9B09C4C547E05C735E5A4EAEEF968034.tmp' to '../../../../../../Github/UnrealEngine/FirstGame/Content/Interface/Menu.uasset'
+[2014.09.16-20.29.33:979][186]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.09.16-20.30.23:842][  7]BlueprintLog: New page: Compile Menu
+[2014.09.16-20.30.23:902][  7]BlueprintEditorCompileResults: Info [2165.89] Compile of Menu successful! [in 0 ms]
+[2014.09.16-20.30.24:432][ 53]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Interface/Menu" FILE="../../../../../../Github/UnrealEngine/FirstGame/Content/Interface/Menu.uasset" SILENT=true
+[2014.09.16-20.30.24:455][ 53]LogSavePackage: Save=10.868838ms
+[2014.09.16-20.30.24:455][ 53]LogSavePackage: Moving '../../../../../../Github/UnrealEngine/FirstGame/Saved/Menu4B6F5D6D4418F609EFE07FB857A57B57.tmp' to '../../../../../../Github/UnrealEngine/FirstGame/Content/Interface/Menu.uasset'
+[2014.09.16-20.30.29:809][680]BlueprintLog: New page: Pre-PIE auto-recompile
+[2014.09.16-20.30.29:809][680]LogPlayLevel: [PIE] Compiling Menu before PIE...
+[2014.09.16-20.30.29:855][680]LogPlayLevel: PIE:  Blueprint regeneration took 46 ms (1 blueprints)
+[2014.09.16-20.30.29:855][680]PIE: New page: PIE session: Menu (Sep 17, 2014, 12:30:29 AM)
+[2014.09.16-20.30.29:856][680]LogPlayLevel: PIE: StaticDuplicateObject took: (0.000534s)
+[2014.09.16-20.30.29:856][680]LogPlayLevel: PIE: World Init took: (0.000342s)
+[2014.09.16-20.30.29:856][680]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Menu.Menu to /Game/Maps/UEDPIE_0_Menu.Menu (0.000965s)
+[2014.09.16-20.30.29:884][680]LogWorld: Game class is 'MyGame_C'
+[2014.09.16-20.30.29:885][680]LogAIModule: Creating AISystem for world Menu
+[2014.09.16-20.30.29:886][680]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Menu.Menu up for play (max tick rate 0) at 2014.09.16-22.30.29
+[2014.09.16-20.30.29:886][680]LogWorld: Bringing up level for play took: 0.000356
+[2014.09.16-20.30.29:888][680]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Menu 0.031
+[2014.09.16-20.30.36:287][437]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000001EB93600
+[2014.09.16-20.30.36:293][438]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000158CDA80
+[2014.09.16-20.30.45:388][417]BlueprintLog: New page: Compile Menu
+[2014.09.16-20.30.45:446][417]BlueprintEditorCompileResults: Info [2187.43] Compile of Menu successful! [in 1 ms]
+[2014.09.16-20.30.45:782][446]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Interface/Menu" FILE="../../../../../../Github/UnrealEngine/FirstGame/Content/Interface/Menu.uasset" SILENT=true
+[2014.09.16-20.30.45:797][446]LogSavePackage: Save=9.644176ms
+[2014.09.16-20.30.45:797][446]LogSavePackage: Moving '../../../../../../Github/UnrealEngine/FirstGame/Saved/Menu24DB3DAD42E276D8C49B7099A10FA4AB.tmp' to '../../../../../../Github/UnrealEngine/FirstGame/Content/Interface/Menu.uasset'
+[2014.09.16-20.30.50:762][ 23]BlueprintLog: New page: Pre-PIE auto-recompile
+[2014.09.16-20.30.50:762][ 23]LogPlayLevel: [PIE] Compiling Menu before PIE...
+[2014.09.16-20.30.50:803][ 23]LogPlayLevel: PIE:  Blueprint regeneration took 41 ms (1 blueprints)
+[2014.09.16-20.30.50:803][ 23]PIE: New page: PIE session: Menu (Sep 17, 2014, 12:30:50 AM)
+[2014.09.16-20.30.50:804][ 23]LogPlayLevel: PIE: StaticDuplicateObject took: (0.000540s)
+[2014.09.16-20.30.50:804][ 23]LogPlayLevel: PIE: World Init took: (0.000342s)
+[2014.09.16-20.30.50:804][ 23]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Menu.Menu to /Game/Maps/UEDPIE_0_Menu.Menu (0.000974s)
+[2014.09.16-20.30.50:832][ 23]LogWorld: Game class is 'MyGame_C'
+[2014.09.16-20.30.50:833][ 23]LogAIModule: Creating AISystem for world Menu
+[2014.09.16-20.30.50:834][ 23]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Menu.Menu up for play (max tick rate 0) at 2014.09.16-22.30.50
+[2014.09.16-20.30.50:834][ 23]LogWorld: Bringing up level for play took: 0.000353
+[2014.09.16-20.30.50:836][ 23]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Menu 0.979
+[2014.09.16-20.31.01:044][237]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000015ACCD60
+[2014.09.16-20.31.01:051][238]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000002AFEEA20
+[2014.09.16-20.31.46:589][509]BlueprintLog: New page: Compile Menu
+[2014.09.16-20.31.46:650][509]BlueprintEditorCompileResults: Info [2248.63] Compile of Menu successful! [in 0 ms]
+[2014.09.16-20.31.46:967][530]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Interface/Menu" FILE="../../../../../../Github/UnrealEngine/FirstGame/Content/Interface/Menu.uasset" SILENT=true
+[2014.09.16-20.31.46:985][530]LogSavePackage: Save=11.870653ms
+[2014.09.16-20.31.46:985][530]LogSavePackage: Moving '../../../../../../Github/UnrealEngine/FirstGame/Saved/Menu0954F44D452966C03EE356AFF39DBCEB.tmp' to '../../../../../../Github/UnrealEngine/FirstGame/Content/Interface/Menu.uasset'
+[2014.09.16-20.31.49:044][775]BlueprintLog: New page: Pre-PIE auto-recompile
+[2014.09.16-20.31.49:044][775]LogPlayLevel: [PIE] Compiling Menu before PIE...
+[2014.09.16-20.31.49:088][775]LogPlayLevel: PIE:  Blueprint regeneration took 43 ms (1 blueprints)
+[2014.09.16-20.31.49:088][775]PIE: New page: PIE session: Menu (Sep 17, 2014, 12:31:49 AM)
+[2014.09.16-20.31.49:089][775]LogPlayLevel: PIE: StaticDuplicateObject took: (0.000546s)
+[2014.09.16-20.31.49:089][775]LogPlayLevel: PIE: World Init took: (0.000344s)
+[2014.09.16-20.31.49:089][775]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Menu.Menu to /Game/Maps/UEDPIE_0_Menu.Menu (0.000980s)
+[2014.09.16-20.31.49:125][775]LogWorld: Game class is 'MyGame_C'
+[2014.09.16-20.31.49:127][775]LogAIModule: Creating AISystem for world Menu
+[2014.09.16-20.31.49:127][775]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Menu.Menu up for play (max tick rate 0) at 2014.09.16-22.31.49
+[2014.09.16-20.31.49:127][775]LogWorld: Bringing up level for play took: 0.000402
+[2014.09.16-20.31.49:129][775]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Menu -0.728
+[2014.09.16-20.32.02:807][149]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000002AFEC180
+[2014.09.16-20.32.11:174][124]BlueprintLog: New page: Compile Menu
+[2014.09.16-20.32.11:231][124]BlueprintEditorCompileResults: Info [2273.22] Compile of Menu successful! [in 0 ms]
+[2014.09.16-20.32.11:718][167]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Interface/Menu" FILE="../../../../../../Github/UnrealEngine/FirstGame/Content/Interface/Menu.uasset" SILENT=true
+[2014.09.16-20.32.11:734][167]LogSavePackage: Save=10.670183ms
+[2014.09.16-20.32.11:734][167]LogSavePackage: Moving '../../../../../../Github/UnrealEngine/FirstGame/Saved/Menu56465F014D7E163F23A11DA1B729401B.tmp' to '../../../../../../Github/UnrealEngine/FirstGame/Content/Interface/Menu.uasset'
+[2014.09.16-20.33.34:814][765]BlueprintLog: New page: Compile Menu
+[2014.09.16-20.33.34:871][765]BlueprintEditorCompileResults: Info [2356.86] Compile of Menu successful! [in 1 ms]
+[2014.09.16-20.33.56:568][585]BlueprintLog: New page: Compile Menu
+[2014.09.16-20.33.56:630][585]BlueprintEditorCompileResults: Info [2378.61] Compile of Menu successful! [in 1 ms]
+[2014.09.16-20.33.56:921][603]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Interface/Menu" FILE="../../../../../../Github/UnrealEngine/FirstGame/Content/Interface/Menu.uasset" SILENT=true
+[2014.09.16-20.33.56:941][603]LogSavePackage: Save=12.326592ms
+[2014.09.16-20.33.56:941][603]LogSavePackage: Moving '../../../../../../Github/UnrealEngine/FirstGame/Saved/MenuBE2BD8C3434C6D1AFA1AC3A286CCB449.tmp' to '../../../../../../Github/UnrealEngine/FirstGame/Content/Interface/Menu.uasset'
+[2014.09.16-20.35.26:387][442]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Menu" FILE="../../../../../../Github/UnrealEngine/FirstGame/Content/Maps/Menu.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2014.09.16-20.35.26:419][442]LogSavePackage: Save=12.010679ms
+[2014.09.16-20.35.26:419][442]LogSavePackage: Moving '../../../../../../Github/UnrealEngine/FirstGame/Saved/MenuDFB4B1E74041B29055A14A8EB0714DB4.tmp' to '../../../../../../Github/UnrealEngine/FirstGame/Content/Maps/Menu.umap'
+[2014.09.16-20.35.26:432][442]LogFileHelpers: Saving map 'Menu' took 0.076
+[2014.09.16-20.35.26:434][442]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Interface/Menu" FILE="../../../../../../Github/UnrealEngine/FirstGame/Content/Interface/Menu.uasset" SILENT=true
+[2014.09.16-20.35.26:451][442]LogSavePackage: Save=11.775595ms
+[2014.09.16-20.35.26:451][442]LogSavePackage: Moving '../../../../../../Github/UnrealEngine/FirstGame/Saved/MenuDC84DEB84958FB37396239B75251561A.tmp' to '../../../../../../Github/UnrealEngine/FirstGame/Content/Interface/Menu.uasset'
+[2014.09.16-20.35.26:457][442]LogSavePackage: Save=3.027929ms
+[2014.09.16-20.35.26:457][442]LogSavePackage: Moving '../../../../../../Github/UnrealEngine/FirstGame/Saved/T_Brick_Clay_Beveled_DD69A649A4F5C8BB0AF5533A735805400.tmp' to '../../../../../../Github/UnrealEngine/FirstGame/Content/Interface/Styles/Assets/T_Brick_Clay_Beveled_D.uasset'
+[2014.09.16-20.35.26:463][442]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Interface/Styles/Assets/T_Brick_Clay_New_D" FILE="../../../../../../Github/UnrealEngine/FirstGame/Content/Interface/Styles/Assets/T_Brick_Clay_New_D.uasset" SILENT=true
+[2014.09.16-20.35.26:466][442]LogSavePackage: Save=2.702908ms
+[2014.09.16-20.35.26:466][442]LogSavePackage: Moving '../../../../../../Github/UnrealEngine/FirstGame/Saved/T_Brick_Clay_New_D7F462C084634F323BE12A6AEA5C3EC4C.tmp' to '../../../../../../Github/UnrealEngine/FirstGame/Content/Interface/Styles/Assets/T_Brick_Clay_New_D.uasset'
+[2014.09.16-20.35.26:474][442]LogSavePackage: Save=2.715715ms
+[2014.09.16-20.35.26:474][442]LogSavePackage: Moving '../../../../../../Github/UnrealEngine/FirstGame/Saved/T_CobbleStone_Rough_D131D7BF54687A807113883B77B5219BF.tmp' to '../../../../../../Github/UnrealEngine/FirstGame/Content/Interface/Styles/Assets/T_CobbleStone_Rough_D.uasset'
+[2014.09.16-20.35.26:478][442]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Interface/Styles/Assets/T_Concrete_Grime_D" FILE="../../../../../../Github/UnrealEngine/FirstGame/Content/Interface/Styles/Assets/T_Concrete_Grime_D.uasset" SILENT=true
+[2014.09.16-20.35.26:481][442]LogSavePackage: Save=2.379310ms
+[2014.09.16-20.35.26:481][442]LogSavePackage: Moving '../../../../../../Github/UnrealEngine/FirstGame/Saved/T_Concrete_Grime_DC8214897484A4C41604A2786A9F36332.tmp' to '../../../../../../Github/UnrealEngine/FirstGame/Content/Interface/Styles/Assets/T_Concrete_Grime_D.uasset'
+[2014.09.16-20.35.33:127][218]BlueprintLog: New page: Pre-PIE auto-recompile
+[2014.09.16-20.35.33:127][218]LogPlayLevel: [PIE] Compiling Menu before PIE...
+[2014.09.16-20.35.33:161][218]LogPlayLevel: [PIE] Compiling Menu before PIE...
+[2014.09.16-20.35.33:225][218]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000002AF55DA0
+[2014.09.16-20.35.33:225][218]LogPlayLevel: PIE:  Blueprint regeneration took 98 ms (2 blueprints)
+[2014.09.16-20.35.33:226][218]PIE: New page: PIE session: Menu (Sep 17, 2014, 12:35:33 AM)
+[2014.09.16-20.35.33:226][218]LogPlayLevel: PIE: StaticDuplicateObject took: (0.000548s)
+[2014.09.16-20.35.33:226][218]LogPlayLevel: PIE: World Init took: (0.000356s)
+[2014.09.16-20.35.33:227][218]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Menu.Menu to /Game/Maps/UEDPIE_0_Menu.Menu (0.001017s)
+[2014.09.16-20.35.33:251][218]LogWorld: Game class is 'MyGame_C'
+[2014.09.16-20.35.33:252][218]LogAIModule: Creating AISystem for world Menu
+[2014.09.16-20.35.33:252][218]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Menu.Menu up for play (max tick rate 0) at 2014.09.16-22.35.33
+[2014.09.16-20.35.33:252][218]LogWorld: Bringing up level for play took: 0.000317
+[2014.09.16-20.35.33:254][218]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Menu -0.605
+[2014.09.16-20.35.35:100][432]LogPackageName: SearchForPackageOnDisk took   0.033s to resolve Example_Map.umap
+[2014.09.16-20.35.35:132][432]LogPackageName: SearchForPackageOnDisk took   0.031s to resolve Example_Map.umap
+[2014.09.16-20.35.35:132][432]LogNet: Browse: /Game/Maps/Example_Map
+[2014.09.16-20.35.35:132][432]LogLoad: LoadMap: /Game/Maps/Example_Map
+[2014.09.16-20.35.35:161][432]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000002BD342C0
+[2014.09.16-20.35.35:161][432]Cmd: MEM
+[2014.09.16-20.35.35:261][432]LogMemory: Platform Memory Stats for Windows
+[2014.09.16-20.35.35:261][432]LogMemory: Process Physical Memory: 690.14 MB used, 706.02 MB peak
+[2014.09.16-20.35.35:261][432]LogMemory: Process Virtual Memory: 620.07 MB used, 636.29 MB peak
+[2014.09.16-20.35.35:261][432]LogMemory: Physical Memory: 6678.16 MB used, 16321.48 MB total
+[2014.09.16-20.35.35:261][432]LogMemory: Virtual Memory: 1135.06 MB used, 8388608.00 MB total
+[2014.09.16-20.35.35:261][432]LogMemory: 
+[2014.09.16-20.35.35:261][432]Allocator Stats for TBB: (not implemented)
+[2014.09.16-20.35.35:436][432]LogWorld: Game class is 'MyGame_C'
+[2014.09.16-20.35.35:438][432]LogAIModule: Creating AISystem for world Example_Map
+[2014.09.16-20.35.35:439][432]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Example_Map.Example_Map up for play (max tick rate 0) at 2014.09.16-22.35.35
+[2014.09.16-20.35.35:439][432]LogWorld: Bringing up level for play took: 0.001268
+[2014.09.16-20.35.47:635][887]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000002BD37A60
+[2014.09.16-20.35.48:842][ 31]BlueprintLog: New page: Pre-PIE auto-recompile
+[2014.09.16-20.35.48:843][ 31]LogPlayLevel: [PIE] Compiling Menu before PIE...
+[2014.09.16-20.35.48:881][ 31]LogPlayLevel: PIE:  Blueprint regeneration took 39 ms (1 blueprints)
+[2014.09.16-20.35.48:882][ 31]PIE: New page: PIE session: Menu (Sep 17, 2014, 12:35:48 AM)
+[2014.09.16-20.35.48:882][ 31]LogPlayLevel: PIE: StaticDuplicateObject took: (0.000531s)
+[2014.09.16-20.35.48:883][ 31]LogPlayLevel: PIE: World Init took: (0.000422s)
+[2014.09.16-20.35.48:883][ 31]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Menu.Menu to /Game/Maps/UEDPIE_0_Menu.Menu (0.001050s)
+[2014.09.16-20.35.48:910][ 31]LogWorld: Game class is 'MyGame_C'
+[2014.09.16-20.35.48:911][ 31]LogAIModule: Creating AISystem for world Menu
+[2014.09.16-20.35.48:911][ 31]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Menu.Menu up for play (max tick rate 0) at 2014.09.16-22.35.48
+[2014.09.16-20.35.48:911][ 31]LogWorld: Bringing up level for play took: 0.000326
+[2014.09.16-20.35.48:913][ 31]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Menu 1.054
+[2014.09.16-20.35.50:495][209]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000002C131A80
+[2014.09.16-20.35.53:680][569]BlueprintLog: New page: Pre-PIE auto-recompile
+[2014.09.16-20.35.53:681][569]LogPlayLevel: [PIE] Compiling Menu before PIE...
+[2014.09.16-20.35.53:719][569]LogPlayLevel: PIE:  Blueprint regeneration took 38 ms (1 blueprints)
+[2014.09.16-20.35.53:720][569]PIE: New page: PIE session: Menu (Sep 17, 2014, 12:35:53 AM)
+[2014.09.16-20.35.53:720][569]LogPlayLevel: PIE: StaticDuplicateObject took: (0.000506s)
+[2014.09.16-20.35.53:720][569]LogPlayLevel: PIE: World Init took: (0.000344s)
+[2014.09.16-20.35.53:721][569]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Menu.Menu to /Game/Maps/UEDPIE_0_Menu.Menu (0.000962s)
+[2014.09.16-20.35.53:747][569]LogWorld: Game class is 'MyGame_C'
+[2014.09.16-20.35.53:749][569]LogAIModule: Creating AISystem for world Menu
+[2014.09.16-20.35.53:749][569]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Menu.Menu up for play (max tick rate 0) at 2014.09.16-22.35.53
+[2014.09.16-20.35.53:749][569]LogWorld: Bringing up level for play took: 0.000322
+[2014.09.16-20.35.53:751][569]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Menu -0.108
+[2014.09.16-20.35.55:977][825]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000002CEF8A40
+[2014.09.16-20.36.04:474][751]Cmd: QUIT_EDITOR
+[2014.09.16-20.36.04:558][751]LogWindowsTextInputMethodSystem:Error: Terminating failed while unadvising the language notification sink from the TSF source.
+[2014.09.16-20.36.04:560][751]LogExit: Preparing to exit.
+[2014.09.16-20.36.04:834][751]LogExit: Editor shut down
+[2014.09.16-20.36.04:834][751]LogExit: Transaction tracking system shut down
+[2014.09.16-20.36.04:835][751]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000014CEC900
+[2014.09.16-20.36.04:835][751]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000120AF060
+[2014.09.16-20.36.04:856][751]LogExit: Object subsystem successfully closed.
+[2014.09.16-20.36.04:871][751]LogModuleManager: Shutting down and abandoning module SequencerWidgets (162)
+[2014.09.16-20.36.04:871][751]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (161)
+[2014.09.16-20.36.04:871][751]LogModuleManager: Shutting down and abandoning module HTTP (160)
+[2014.09.16-20.36.04:871][751]LogModuleManager: Shutting down and abandoning module CrashTracker (159)
+[2014.09.16-20.36.04:871][751]LogModuleManager: Shutting down and abandoning module SuperSearch (158)
+[2014.09.16-20.36.04:871][751]LogModuleManager: Shutting down and abandoning module SceneOutliner (157)
+[2014.09.16-20.36.04:871][751]LogModuleManager: Shutting down and abandoning module EditorWidgets (156)
+[2014.09.16-20.36.04:871][751]LogModuleManager: Shutting down and abandoning module CollectionManager (155)
+[2014.09.16-20.36.04:871][751]LogModuleManager: Shutting down and abandoning module StatsViewer (154)
+[2014.09.16-20.36.04:871][751]LogModuleManager: Shutting down and abandoning module FoliageEdit (153)
+[2014.09.16-20.36.04:871][751]LogModuleManager: Shutting down and abandoning module LandscapeEditor (152)
+[2014.09.16-20.36.04:871][751]LogModuleManager: Shutting down and abandoning module MeshPaint (151)
+[2014.09.16-20.36.04:871][751]LogModuleManager: Shutting down and abandoning module ActorPickerMode (150)
+[2014.09.16-20.36.04:871][751]LogModuleManager: Shutting down and abandoning module GeometryMode (149)
+[2014.09.16-20.36.04:871][751]LogModuleManager: Shutting down and abandoning module TextureAlignMode (148)
+[2014.09.16-20.36.04:871][751]LogModuleManager: Shutting down and abandoning module BspMode (147)
+[2014.09.16-20.36.04:871][751]LogModuleManager: Shutting down and abandoning module PlacementMode (146)
+[2014.09.16-20.36.04:871][751]LogModuleManager: Shutting down and abandoning module DesktopPlatform (145)
+[2014.09.16-20.36.04:871][751]LogModuleManager: Shutting down and abandoning module AutomationWorker (144)
+[2014.09.16-20.36.04:871][751]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (143)
+[2014.09.16-20.36.04:871][751]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (142)
+[2014.09.16-20.36.04:871][751]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (141)
+[2014.09.16-20.36.04:871][751]LogModuleManager: Shutting down and abandoning module UndoHistory (140)
+[2014.09.16-20.36.04:871][751]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (139)
+[2014.09.16-20.36.04:871][751]LogModuleManager: Shutting down and abandoning module UserFeedback (138)
+[2014.09.16-20.36.04:871][751]LogModuleManager: Shutting down and abandoning module XmlParser (137)
+[2014.09.16-20.36.04:871][751]LogModuleManager: Shutting down and abandoning module Blutility (136)
+[2014.09.16-20.36.04:871][751]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (135)
+[2014.09.16-20.36.04:871][751]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (134)
+[2014.09.16-20.36.04:871][751]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (133)
+[2014.09.16-20.36.04:871][751]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (132)
+[2014.09.16-20.36.04:871][751]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (131)
+[2014.09.16-20.36.04:871][751]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (130)
+[2014.09.16-20.36.04:871][751]LogModuleManager: Shutting down and abandoning module InputBindingEditor (129)
+[2014.09.16-20.36.04:872][751]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (128)
+[2014.09.16-20.36.04:872][751]LogModuleManager: Shutting down and abandoning module SettingsEditor (127)
+[2014.09.16-20.36.04:872][751]LogModuleManager: Shutting down and abandoning module SessionLauncher (126)
+[2014.09.16-20.36.04:872][751]LogModuleManager: Shutting down and abandoning module SessionFrontend (125)
+[2014.09.16-20.36.04:872][751]LogModuleManager: Shutting down and abandoning module ProfilerClient (124)
+[2014.09.16-20.36.04:872][751]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (123)
+[2014.09.16-20.36.04:872][751]LogModuleManager: Shutting down and abandoning module DeviceManager (122)
+[2014.09.16-20.36.04:872][751]LogModuleManager: Shutting down and abandoning module AutomationController (121)
+[2014.09.16-20.36.04:872][751]LogModuleManager: Shutting down and abandoning module AutomationWindow (120)
+[2014.09.16-20.36.04:872][751]LogModuleManager: Shutting down and abandoning module Layers (119)
+[2014.09.16-20.36.04:872][751]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (118)
+[2014.09.16-20.36.04:872][751]LogModuleManager: Shutting down and abandoning module DetailCustomizations (117)
+[2014.09.16-20.36.04:872][751]LogModuleManager: Shutting down and abandoning module PackagesDialog (116)
+[2014.09.16-20.36.04:872][751]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (115)
+[2014.09.16-20.36.04:872][751]LogModuleManager: Shutting down and abandoning module AssetRegistry (114)
+[2014.09.16-20.36.04:975][751]LogModuleManager: Shutting down and abandoning module Persona (113)
+[2014.09.16-20.36.04:975][751]LogModuleManager: Shutting down and abandoning module GraphEditor (112)
+[2014.09.16-20.36.04:976][751]LogModuleManager: Shutting down and abandoning module ClassViewer (111)
+[2014.09.16-20.36.04:976][751]LogModuleManager: Shutting down and abandoning module Toolbox (110)
+[2014.09.16-20.36.04:976][751]LogModuleManager: Shutting down and abandoning module ModuleUI (109)
+[2014.09.16-20.36.04:976][751]LogModuleManager: Shutting down and abandoning module MovieSceneTools (108)
+[2014.09.16-20.36.04:976][751]LogModuleManager: Shutting down and abandoning module OutputLog (107)
+[2014.09.16-20.36.04:976][751]LogModuleManager: Shutting down and abandoning module GammaUI (106)
+[2014.09.16-20.36.04:976][751]LogModuleManager: Shutting down and abandoning module Documentation (105)
+[2014.09.16-20.36.04:976][751]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (104)
+[2014.09.16-20.36.04:976][751]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (103)
+[2014.09.16-20.36.04:976][751]LogModuleManager: Shutting down and abandoning module AnalyticsET (102)
+[2014.09.16-20.36.04:976][751]LogModuleManager: Shutting down and abandoning module Analytics (101)
+[2014.09.16-20.36.04:976][751]LogModuleManager: Shutting down and abandoning module GameplayDebugger (100)
+[2014.09.16-20.36.04:976][751]LogModuleManager: Shutting down and abandoning module AIModule (99)
+[2014.09.16-20.36.04:976][751]LogModuleManager: Shutting down and abandoning module ProfilerService (98)
+[2014.09.16-20.36.05:012][751]LogModuleManager: Shutting down and abandoning module TaskGraph (97)
+[2014.09.16-20.36.05:012][751]LogModuleManager: Shutting down and abandoning module SlateRemote (96)
+[2014.09.16-20.36.05:012][751]LogModuleManager: Shutting down and abandoning module ScriptEditorPlugin (95)
+[2014.09.16-20.36.05:012][751]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (94)
+[2014.09.16-20.36.05:012][751]LogModuleManager: Shutting down and abandoning module CableComponent (93)
+[2014.09.16-20.36.05:012][751]LogModuleManager: Shutting down and abandoning module MessagingDebugger (92)
+[2014.09.16-20.36.05:012][751]LogModuleManager: Shutting down and abandoning module ViewportSnapping (91)
+[2014.09.16-20.36.05:012][751]LogModuleManager: Shutting down and abandoning module SmartSnapping (90)
+[2014.09.16-20.36.05:012][751]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (89)
+[2014.09.16-20.36.05:012][751]LogModuleManager: Shutting down and abandoning module PaperJsonImporter (88)
+[2014.09.16-20.36.05:012][751]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (87)
+[2014.09.16-20.36.05:012][751]LogModuleManager: Shutting down and abandoning module Matinee (86)
+[2014.09.16-20.36.05:012][751]LogModuleManager: Shutting down and abandoning module Kismet (85)
+[2014.09.16-20.36.05:012][751]LogModuleManager: Shutting down and abandoning module SlateReflector (84)
+[2014.09.16-20.36.05:012][751]LogModuleManager: Shutting down and abandoning module LevelEditor (83)
+[2014.09.16-20.36.05:013][751]LogModuleManager: Shutting down and abandoning module IntroTutorials (82)
+[2014.09.16-20.36.05:013][751]LogModuleManager: Shutting down and abandoning module ContentBrowser (81)
+[2014.09.16-20.36.05:013][751]LogModuleManager: Shutting down and abandoning module PropertyEditor (80)
+[2014.09.16-20.36.05:013][751]LogModuleManager: Shutting down and abandoning module Paper2DEditor (79)
+[2014.09.16-20.36.05:013][751]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (78)
+[2014.09.16-20.36.05:013][751]LogModuleManager: Shutting down and abandoning module PluginsEditor (77)
+[2014.09.16-20.36.05:013][751]LogModuleManager: Shutting down and abandoning module MainFrame (76)
+[2014.09.16-20.36.05:013][751]LogModuleManager: Shutting down and abandoning module EpicSurvey (75)
+[2014.09.16-20.36.05:013][751]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (74)
+[2014.09.16-20.36.05:013][751]LogModuleManager: Shutting down and abandoning module UObjectPlugin (73)
+[2014.09.16-20.36.05:013][751]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (72)
+[2014.09.16-20.36.05:013][751]LogModuleManager: Shutting down and abandoning module SourceControl (71)
+[2014.09.16-20.36.05:013][751]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (70)
+[2014.09.16-20.36.05:013][751]LogModuleManager: Shutting down and abandoning module BlankPlugin (69)
+[2014.09.16-20.36.05:013][751]LogModuleManager: Shutting down and abandoning module ScriptPlugin (68)
+[2014.09.16-20.36.05:013][751]LogModuleManager: Shutting down and abandoning module UdpMessaging (67)
+[2014.09.16-20.36.05:113][751]LogModuleManager: Shutting down and abandoning module Paper2D (66)
+[2014.09.16-20.36.05:113][751]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (65)
+[2014.09.16-20.36.05:115][751]LogModuleManager: Shutting down and abandoning module ImageWrapper (64)
+[2014.09.16-20.36.05:115][751]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (63)
+[2014.09.16-20.36.05:115][751]LogModuleManager: Shutting down and abandoning module FunctionalTesting (62)
+[2014.09.16-20.36.05:115][751]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (61)
+[2014.09.16-20.36.05:115][751]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (60)
+[2014.09.16-20.36.05:115][751]LogModuleManager: Shutting down and abandoning module MessageLog (59)
+[2014.09.16-20.36.05:116][751]LogModuleManager: Shutting down and abandoning module Sequencer (58)
+[2014.09.16-20.36.05:116][751]LogModuleManager: Shutting down and abandoning module AssetTools (57)
+[2014.09.16-20.36.05:116][751]LogModuleManager: Shutting down and abandoning module UMGEditor (56)
+[2014.09.16-20.36.05:116][751]LogModuleManager: Shutting down and abandoning module UMG (55)
+[2014.09.16-20.36.05:116][751]LogModuleManager: Shutting down and abandoning module Slate (54)
+[2014.09.16-20.36.05:116][751]LogModuleManager: Shutting down and abandoning module EditorStyle (53)
+[2014.09.16-20.36.05:117][751]LogModuleManager: Shutting down and abandoning module SessionServices (52)
+[2014.09.16-20.36.05:117][751]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (51)
+[2014.09.16-20.36.05:117][751]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (50)
+[2014.09.16-20.36.05:117][751]LogModuleManager: Shutting down and abandoning module XAudio2 (49)
+[2014.09.16-20.36.05:117][751]LogModuleManager: Shutting down and abandoning module Networking (47)
+[2014.09.16-20.36.05:117][751]LogModuleManager: Shutting down and abandoning module Core (46)
+[2014.09.16-20.36.05:117][751]LogModuleManager: Shutting down and abandoning module KismetCompiler (45)
+[2014.09.16-20.36.05:117][751]LogModuleManager: Shutting down and abandoning module PhysXFormats (44)
+[2014.09.16-20.36.05:117][751]LogModuleManager: Shutting down and abandoning module MeshUtilities (43)
+[2014.09.16-20.36.05:117][751]LogModuleManager: Shutting down and abandoning module DerivedDataCache (42)
+[2014.09.16-20.36.05:217][751]LogDerivedDataCache: Shutdown
+[2014.09.16-20.36.05:217][751]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (41)
+[2014.09.16-20.36.05:217][751]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (40)
+[2014.09.16-20.36.05:217][751]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (39)
+[2014.09.16-20.36.05:217][751]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (38)
+[2014.09.16-20.36.05:217][751]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (37)
+[2014.09.16-20.36.05:217][751]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (36)
+[2014.09.16-20.36.05:217][751]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (35)
+[2014.09.16-20.36.05:217][751]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (34)
+[2014.09.16-20.36.05:217][751]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (33)
+[2014.09.16-20.36.05:217][751]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (32)
+[2014.09.16-20.36.05:217][751]LogModuleManager: Shutting down and abandoning module Messaging (31)
+[2014.09.16-20.36.05:217][751]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (30)
+[2014.09.16-20.36.05:217][751]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (29)
+[2014.09.16-20.36.05:217][751]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (28)
+[2014.09.16-20.36.05:217][751]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (27)
+[2014.09.16-20.36.05:217][751]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (26)
+[2014.09.16-20.36.05:217][751]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (25)
+[2014.09.16-20.36.05:217][751]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (24)
+[2014.09.16-20.36.05:217][751]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (23)
+[2014.09.16-20.36.05:217][751]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (22)
+[2014.09.16-20.36.05:217][751]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (21)
+[2014.09.16-20.36.05:217][751]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (20)
+[2014.09.16-20.36.05:217][751]LogModuleManager: Shutting down and abandoning module TargetPlatform (19)
+[2014.09.16-20.36.05:217][751]LogModuleManager: Shutting down and abandoning module InputCore (18)
+[2014.09.16-20.36.05:217][751]LogModuleManager: Shutting down and abandoning module Settings (17)
+[2014.09.16-20.36.05:217][751]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (14)
+[2014.09.16-20.36.05:217][751]LogModuleManager: Shutting down and abandoning module OculusRift (13)
+[2014.09.16-20.36.05:217][751]LogModuleManager: Shutting down and abandoning module TextureCompressor (12)
+[2014.09.16-20.36.05:217][751]LogModuleManager: Shutting down and abandoning module ShaderCore (11)
+[2014.09.16-20.36.05:217][751]LogModuleManager: Shutting down and abandoning module OpenGLDrv (10)
+[2014.09.16-20.36.05:217][751]LogModuleManager: Shutting down and abandoning module D3D11RHI (9)
+[2014.09.16-20.36.05:217][751]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (8)
+[2014.09.16-20.36.05:217][751]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2014.09.16-20.36.05:217][751]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2014.09.16-20.36.05:217][751]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2014.09.16-20.36.05:217][751]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2014.09.16-20.36.05:217][751]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2014.09.16-20.36.05:217][751]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2014.09.16-20.36.05:217][751]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2014.09.16-20.36.05:218][751]LogExit: Exiting.
+[2014.09.16-20.36.05:224][751]Log file closed, 09/16/14 22:36:05
+=======
 LogInit: Base directory: M:/UDK/Unreal Engine/4.4/Engine/Binaries/Win64/
 LogInit: Rocket: 1
 [2014.09.16-19.07.27:544][  0]LogTaskGraph: Started task graph with 3 named threads and 4 total threads.
@@ -1700,6 +2301,7 @@ mixamorig:RightToe_End
 [2014.09.16-19.29.49:805][ 80]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Animations/Mycharacter/rifle_idle_1" FILE="K:/UnrealProject/EpicGames/FirstGame/Content/Animations/Mycharacter/rifle_idle_1.uasset" SILENT=true
 [2014.09.16-19.29.50:966][ 80]LogSavePackage: Save=1154.596924ms
 [2014.09.16-19.29.50:967][ 80]LogSavePackage: Moving 'K:/UnrealProject/EpicGames/FirstGame/Saved/rifle_idle_1ADC94AF647962720FF0795BAA0D66324.tmp' to 'K:/UnrealProject/EpicGames/FirstGame/Content/Animations/Mycharacter/rifle_idle_1.uasset'
+<<<<<<< HEAD
 [2014.09.16-19.29.51:021][ 80]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Animations/Mycharacter/run_backwards_1" FILE="K:/UnrealProject/EpicGames/FirstGame/Content/Animations/Mycharacter/run_backwards_1.uasset" SILENT=true
 [2014.09.16-19.29.52:305][ 80]LogSavePackage: Save=1275.594727ms
 [2014.09.16-19.29.52:305][ 80]LogSavePackage: Moving 'K:/UnrealProject/EpicGames/FirstGame/Saved/run_backwards_125C51D70486F24C60DC165A121514A03.tmp' to 'K:/UnrealProject/EpicGames/FirstGame/Content/Animations/Mycharacter/run_backwards_1.uasset'
@@ -1920,3 +2522,7 @@ mixamorig:RightToe_End
 [2014.09.17-05.07.04:057][ 97]LogModuleManager: Shutting down and abandoning module PakFile (1)
 [2014.09.17-05.07.04:058][ 97]LogExit: Exiting.
 [2014.09.17-05.07.04:074][ 97]Log file closed, 09/17/14 07:07:04
+=======
+[2014.09.16-19.29.51:021][ 80]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Animations/Mycharacter/run_backwards_1" FILE="K:/UnrealProject/EpicGames/FirstGame/Content/Animations/Mycharacter/run_backwards_1.
+>>>>>>> origin/master
+>>>>>>> b38c7c7faa010033f1fb08d2dd7d545084234f27
